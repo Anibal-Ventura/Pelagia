@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedido de projeto — Pelágia Ocean Systems</title>
+  <meta name="description" content="Fale-nos do seu projeto. A equipa da Pelágia responde a todos os pedidos de engenharia oceânica.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body id="top">
+<div class="site-shell">
+
+  <header class="header">
+    <a class="logo" href="index.html" aria-label="Pelágia, página inicial">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 27c8-12 17-12 25-4 4 4 7 4 11 1M6 34c8-9 16-9 23-3 5 4 9 4 13 1M7 19c7-9 14-10 21-6"/></svg>
+      <span><strong>PELÁGIA</strong><small>OCEAN SYSTEMS</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Principal">
+      <a href="index.html#company">Empresa</a>
+      <a href="index.html#expertise">Competências</a>
+      <a href="index.html#technology">Tecnologia</a>
+      <a href="index.html#projects">Projetos</a>
+      <a href="index.html#sustainability">Sustentabilidade</a>
+      <a href="index.html#careers">Carreiras</a>
+    </nav>
+    <a href="index.html" class="header-cta">Voltar ao site
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M14 7l5 5-5 5"/></svg>
+    </a>
+    <a href="#menu" class="menu-button menu-open" aria-label="Abrir menu">
+      <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 17h16"/></svg>
+    </a>
+    <a href="#close" class="menu-button menu-close" aria-label="Fechar menu">
+      <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </a>
+  </header>
+
+  <div class="mobile-menu" id="menu">
+    <nav class="mobile-nav" aria-label="Móvel">
+      <a href="index.html#company"><span>01</span>Empresa</a>
+      <a href="index.html#expertise"><span>02</span>Competências</a>
+      <a href="index.html#technology"><span>03</span>Tecnologia</a>
+      <a href="index.html#projects"><span>04</span>Projetos</a>
+      <a href="index.html#sustainability"><span>05</span>Sustentabilidade</a>
+      <a href="index.html#careers"><span>06</span>Carreiras</a>
+    </nav>
+    <a href="index.html" class="button primary">Voltar ao site
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M14 7l5 5-5 5"/></svg>
+    </a>
+    <div class="mobile-meta">LUANDA · 08°50′18″S 13°14′03″E</div>
+  </div>
+
+  <main>
+    <section class="form-page">
+      <div class="nautical-grid"></div>
+      <div class="sonar"><i></i><i></i><i></i></div>
+
+      <div class="form-intro reveal">
+        <div class="eyebrow light">Pedido de projeto</div>
+        <h1>Conte-nos o<br><em>seu desafio.</em></h1>
+        <p>Preencha o formulário com os detalhes do seu projeto. A nossa equipa de engenharia analisa cada pedido e responde com os próximos passos.</p>
+        <ul class="form-steps">
+          <li><span>01</span><div><h3>Envie o seu pedido</h3><p>Descreva objetivos, localização e calendário previsto.</p></div></li>
+          <li><span>02</span><div><h3>Análise técnica</h3><p>Um especialista da área avalia o âmbito e a viabilidade.</p></div></li>
+          <li><span>03</span><div><h3>Primeira conversa</h3><p>Contactamos a si para alinhar o caminho a seguir.</p></div></li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal" id="enquiry" action="index.html" method="get">
+        <div class="form-fields">
+          <div class="eyebrow light">Formulário de contacto</div>
+          <h2>Como podemos ajudar?</h2>
+          <p class="form-note">Os campos são todos obrigatórios, exceto o telefone, o orçamento e o prazo.</p>
+          <div class="form-grid">
+            <label>Nome completo<input name="name" required autocomplete="name" placeholder="O seu nome completo"></label>
+            <label>Empresa<input name="company" required autocomplete="organization" placeholder="Organização"></label>
+            <label>Email corporativo<input name="email" required type="email" autocomplete="email" placeholder="nome@empresa.com"></label>
+            <label>Telefone<input name="phone" type="tel" autocomplete="tel" placeholder="+244"></label>
+            <label>País<input name="country" required autocomplete="country-name" placeholder="País"></label>
+            <label>Área de interesse
+              <select name="area" required>
+                <option value="">Selecione a área</option>
+                <option>Engenharia Submarina</option>
+                <option>Sistemas de Energia Offshore</option>
+                <option>Tecnologia Marítima Autónoma</option>
+                <option>Inteligência Oceânica</option>
+              </select>
+            </label>
+            <label>Orçamento estimado
+              <select name="budget">
+                <option value="">Prefiro não indicar</option>
+                <option>Até 100 mil USD</option>
+                <option>100 mil a 500 mil USD</option>
+                <option>500 mil a 2 milhões USD</option>
+                <option>Mais de 2 milhões USD</option>
+              </select>
+            </label>
+            <label>Prazo pretendido
+              <select name="timeline">
+                <option value="">Prefiro não indicar</option>
+                <option>Imediato (até 3 meses)</option>
+                <option>3 a 6 meses</option>
+                <option>6 a 12 meses</option>
+                <option>Mais de 12 meses</option>
+              </select>
+            </label>
+            <label class="full">Mensagem<textarea name="message" required placeholder="Fale-nos do seu projeto, dos objetivos e do calendário"></textarea></label>
+            <label class="consent full"><input name="consent" required type="checkbox"><span>Autorizo a Pelágia a tratar os meus dados para responder a este pedido.</span></label>
+            <button class="button primary" type="submit">Enviar pedido
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M14 7l5 5-5 5"/></svg></button>
+          </div>
+        </div>
+
+        <div class="form-success" role="status" aria-live="polite">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 3 3 5-6"/></svg>
+          <div class="eyebrow light" style="margin:0">Pedido recebido</div>
+          <h2>Obrigado.</h2>
+          <p>A sua mensagem foi enviada. Vamos levá-lo de volta à página principal.</p>
+          <div class="bar"></div>
+          <a class="button secondary" href="index.html">Ir agora</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="index.html" aria-label="Pelágia, página inicial">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 27c8-12 17-12 25-4 4 4 7 4 11 1M6 34c8-9 16-9 23-3 5 4 9 4 13 1M7 19c7-9 14-10 21-6"/></svg>
+          <span><strong>PELÁGIA</strong><small>OCEAN SYSTEMS</small></span>
+        </a>
+        <p>Engenharia avançada e sistemas inteligentes para os ambientes oceânicos mais exigentes do mundo.</p>
+        <div class="socials"><a href="#">LI</a><a href="#">IN</a><a href="#">YT</a></div>
+      </div>
+      <div class="footer-col">
+        <b>Navegar</b>
+        <a href="index.html#company">Empresa</a>
+        <a href="index.html#expertise">Competências</a>
+        <a href="index.html#technology">Tecnologia</a>
+        <a href="index.html#projects">Projetos</a>
+        <a href="index.html#insights">Perspetivas</a>
+      </div>
+      <div class="footer-col">
+        <b>Competências</b>
+        <a href="index.html#expertise">Engenharia Submarina</a>
+        <a href="index.html#expertise">Sistemas de Energia Offshore</a>
+        <a href="index.html#expertise">Tecnologia Marítima Autónoma</a>
+        <a href="index.html#expertise">Inteligência Oceânica</a>
+      </div>
+      <div class="footer-col">
+        <b>Sede global</b>
+        <p>Edifício Baía, Av. 4 de Fevereiro<br>Luanda, Angola</p>
+        <a href="mailto:hello@pelagia.systems">hello@pelagia.systems</a>
+        <a href="tel:+244222440800">+244 222 440 800</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Pelágia Ocean Systems. Todos os direitos reservados.</span>
+      <div><a href="#">Privacidade</a><a href="#">Ética e conformidade</a></div>
+      <span>ENGENHARIA DO DESCONHECIDO</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var form = document.getElementById('enquiry');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      form.querySelector('button[type="submit"]').disabled = true;
+      form.classList.add('sent');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      setTimeout(function () { window.location.href = 'index.html'; }, 2400);
+    });
+  })();
+</script>
+</body>
+</html>
